@@ -4,16 +4,22 @@ import Header from './Header';
 // to use state or life-cycle methods you need to define a class
 // as opposed to the state-less function used in the last lesson.
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {test: 'this is a string'}
-  // }
-
-  // Note: in the console you can access the state object with $r 
-  // or, directly with $r.state
   state = {
     pageHeader: 'Naming Contests'
   };
+  componentDidMount() {
+    // console.log('did mount.');
+    // debugger;
+
+    // This is where you might put AJAX fetching...
+    // timers...  listeners...
+  }
+  componentWillUnmount () {
+    // console.log('will unmount.');
+    // debugger;
+
+    // Cleans timers...  l...
+  }
 
   render () {
     return (
