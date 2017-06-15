@@ -23,6 +23,7 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "json-loader": "^0.5.4",
     "mongodb": "^2.2.28",
     "react": "^15.6.0",
     "react-dom": "^15.6.0"
