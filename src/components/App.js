@@ -6,7 +6,7 @@ import ContestPreview from './ContestPreview';
 class App extends React.Component {
   state = {
     pageHeader: 'Naming Contests',
-    contests: []
+    contests: this.props.initialContests
   };
   componentDidMount() {
     // Make Ajax call and load data response onto the state
